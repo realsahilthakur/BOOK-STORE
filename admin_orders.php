@@ -57,7 +57,6 @@ if(isset($_GET['delete'])){
          while($fetch_orders = mysqli_fetch_assoc($select_orders)){
       ?>
       <div class="box">
-         <p> user id : <span><?php echo $fetch_orders['user_id']; ?></span> </p>
          <p> placed on : <span><?php echo $fetch_orders['placed_on']; ?></span> </p>
          <p> name : <span><?php echo $fetch_orders['name']; ?></span> </p>
          <p> number : <span><?php echo $fetch_orders['number']; ?></span> </p>
@@ -86,12 +85,6 @@ if(isset($_GET['delete'])){
    </div>
 
 </section>
-
-
-
-
-
-
 
 
 
