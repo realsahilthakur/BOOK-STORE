@@ -48,5 +48,4 @@ if(isset($message)){
          </div>
       </div>
    </div>
-
 </header>
