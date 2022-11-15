@@ -107,7 +107,7 @@ if(isset($_POST['order_btn'])){
          </div>
          <div class="inputBox">
             <span>your number :</span>
-            <input type="number" name="number" required placeholder="enter your number">
+            <input type="tel" name="number" required placeholder="enter your number">
          </div>
          <div class="inputBox">
             <span>your email :</span>
@@ -115,16 +115,12 @@ if(isset($_POST['order_btn'])){
          </div>
          <div class="inputBox">
             <span>payment method :</span>
-            <select name="method">
-               <option value="cash on delivery">cash on delivery</option>
-               <option value="credit card">credit card</option>
-               <option value="paypal">paypal</option>
-               <option value="paytm">paytm</option>
-            </select>
+            
+            <input name="method" value="Cash on Delivery" >
          </div>
          <div class="inputBox">
             <span>address line 01 :</span>
-            <input type="number" min="0" name="flat" required placeholder="e.g. flat no.">
+            <input type="tel" min="0" name="flat" required placeholder="e.g. flat no.">
          </div>
          <div class="inputBox">
             <span>address line 01 :</span>
@@ -132,11 +128,11 @@ if(isset($_POST['order_btn'])){
          </div>
          <div class="inputBox">
             <span>city :</span>
-            <input type="text" name="city" required placeholder="e.g. mumbai">
+            <input type="text" name="city" required placeholder="e.g. sector/city">
          </div>
          <div class="inputBox">
             <span>state :</span>
-            <input type="text" name="state" required placeholder="e.g. maharashtra">
+            <input type="text" name="state" required placeholder="e.g. chandigarh">
          </div>
          <div class="inputBox">
             <span>country :</span>
