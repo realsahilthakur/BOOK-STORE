@@ -104,3 +104,4 @@ ________________________________________________________________________________
 
 ![5](https://user-images.githubusercontent.com/90372772/201459549-d6eeb9f3-fb24-4ee6-ae05-d66e73e86632.png)
 
+**WHOLE IDEA TO THIS PROJECT IS TAKEN FROM https://www.youtube.com/@MrWebDesignerAnas INCLUDING ELEMENTS BUT CHANGES MADE ACCORDING TO OWN PREFRENCES**
